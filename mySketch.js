@@ -9,7 +9,8 @@ function setup()
 	metaballs = new ViewMetaballs(network); 
 	diagram = new Diagram(network);
 	
-	createCanvas(windowWidth, windowHeight);
+	let canvas = createCanvas(1200, 600);
+	canvas.style('display', 'block'); 
 }
 
 function draw() 
